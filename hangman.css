@@ -1,0 +1,109 @@
+body {
+  background-image: url("flower-background-aesthetic-border-vector-remixed-from-vintage-public-domain-images_53876-140644.webp");
+}
+
+main {
+  max-width: 610px;
+  margin: auto;
+}
+
+h1,
+h5 {
+  text-align: center;
+  color: #9fe4be;
+}
+
+.win {
+  color: white;
+  background-color: #9fe4be;
+}
+
+.loss {
+  color: white;
+  background-color: rgb(242, 158, 158);
+}
+
+#word {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 24pt;
+  color: hsl(245, 79%, 78%);
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+#guesses {
+  text-align: center;
+  font-size: 16pt;
+  color: hsl(245, 79%, 78%);
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+.guess {
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid #9fe4be;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.guess:hover {
+  background-color: #f9a5cb;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: hsl(58, 79%, 78%);
+      font-weight: bold;
+      font-family: 'Dancing Script', cursive;
+  }
+
+  .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid hsl(58, 79%, 78%);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+  }
+}
+
+#guessBox {
+  height: 60px;
+  border-radius: 10px;
+  padding-top: 5px;
+  font-size: 18pt;
+  width: 200px;
+  padding-left: 10px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: hsl(58, 79%, 78%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #f5a1a1;
+  text-transform: uppercase;
+}
+
+.button:active {
+  background-color: #f5a1a1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
